@@ -21,8 +21,8 @@
 #include "../codecs/sdm660_cdc/msm-digital-cdc.h"
 #include "../codecs/sdm660_cdc/msm-analog-cdc.h"
 #include "../codecs/msm_sdw/msm_sdw.h"
-#include <soc/qcom/socinfo.h>
 #include <linux/pm_qos.h>
+#include <soc/qcom/socinfo.h>
 
 #define __CHIPSET__ "SDM660 "
 #define MSM_DAILINK_NAME(name) (__CHIPSET__#name)
